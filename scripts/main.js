@@ -8,7 +8,7 @@ class HelloWorld {
           {
             opcode: 'hello',
             blockType: Scratch.BlockType.EVENT,
-            text: '[EVE].subscribe.[EV]',
+            text: '[EVE].[BA].subscribe.[EV]',
             arguments: {
                 EV: {
                   type: Scratch.ArgumentType.STRING
@@ -17,6 +17,12 @@ class HelloWorld {
                 EVE: {
                     type: Scratch.ArgumentType.STRING,
                     menu: 'ev'
+                  },
+                  BA: {
+                    type: Scratch.ArgumentType.STRING,
+                    menu: 'abev'
+
+
                   }
                   }
       }
