@@ -22,7 +22,7 @@ class HelloWorld {
       }
         ],
                   menus: {
-                    FORMAT_MENU: {
+                    ev: {
                       acceptReporters: true,
                       items: ['world.afterEvents', 'lowercase']
                     }
