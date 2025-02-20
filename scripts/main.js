@@ -18,15 +18,15 @@ class HelloWorld {
                     type: Scratch.ArgumentType.STRING,
                     menu: 'ev'
                   }
-                  },
+                  }
+      }
+        ],
                   menus: {
                     FORMAT_MENU: {
                       acceptReporters: true,
                       items: ['world.afterEvents', 'lowercase']
                     }
                   }
-      }
-        ]
       };
     }
   
