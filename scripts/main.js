@@ -8,8 +8,24 @@ class HelloWorld {
           {
             opcode: 'hello',
             blockType: Scratch.BlockType.EVENT,
-            text: 'import'
-          }
+            text: '[EVE].subscribe.[EV]',
+            arguments: {
+                EV: {
+                  type: Scratch.ArgumentType.STRING
+                },
+                
+                EVE: {
+                    type: Scratch.ArgumentType.STRING,
+                    menu: 'ev'
+                  }
+                  },
+                  menus: {
+                    FORMAT_MENU: {
+                      acceptReporters: true,
+                      items: ['world.afterEvents', 'lowercase']
+                    }
+                  }
+      }
         ]
       };
     }
