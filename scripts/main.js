@@ -23,8 +23,8 @@ class HelloWorld {
         ],
                   menus: {
                     ev: {
-                      acceptReporters: true,
-                      items: ['world.afterEvents', 'lowercase']
+                      acceptReporters: false,
+                      items: ['world.', 'server.','system.']
                     }
                   }
       };
