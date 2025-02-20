@@ -25,8 +25,13 @@ class HelloWorld {
                     ev: {
                       acceptReporters: false,
                       items: ['world.', 'server.','system.']
+                    },
+                    abev: {
+                    acceptreporters: false,
+                    items: ['beforeEvents.','afterEvents.']
                     }
                   }
+                  
       };
     }
   
